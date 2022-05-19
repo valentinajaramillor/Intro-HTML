@@ -5,9 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página 2</title>
+    <link rel="icon" href="img/icon.ico">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pagina2.html">Página 2</a></li>
+                <li><a href="auxiliar/pagina3.html">Página 3</a></li>
+                <li><a href="auxiliar/semantic.html">Página semántica</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <h1>Has entrado a la página 2</h1>
+
+    <a href="#final">Haz clic aquí para ir al final</a>
 
     <h2>Listas</h2>
 
@@ -35,15 +49,25 @@
     <p>
         Aquí va la <i>imagen externa</i>.
     </p>
-    <img src="https://www.hogarmania.com/archivos/202101/cocina-recetas-como-hacer-croissants-cruasanes-caseros-668x400x80xX.jpg">
+    <img src="https://www.hogarmania.com/archivos/202101/cocina-recetas-como-hacer-croissants-cruasanes-caseros-668x400x80xX.jpg" width="600px" alt="Croissant" title="Delicioso">
+    <!--No se pone lo de width, solo lo puse por acomodar la página de práctica-->
 
     <p>
         Aquí va la <i>imagen local</i>.
     </p>
-    <img src="img/cafe.webp">
+    <img src="img/cafe.webp" width="600px" alt="Café" title="Exquisito"> 
 
     <p>
-        <a href="index.html">Volver al inicio</a>
+        Aquí va el <b>video</b> y el <i>audio</i>.
+    </p>
+    <video src="video/y2mate.com - Ricardo Montaner  Yo Que Te Ame Full Audio Video Original_480p.mp4" controls></video>
+    <br>
+    <audio src="video/y2mate.com - Ricardo Montaner  Yo Que Te Ame Full Audio Video Original_480p.mp4" controls></audio>
+
+    <h2 id="final">Este es el final</h2>
+
+    <p>
+        <a href="index.html">Volver a la página de inicio</a>
     </p>
 
 </body>
